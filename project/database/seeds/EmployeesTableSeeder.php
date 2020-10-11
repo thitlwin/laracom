@@ -36,7 +36,7 @@ class EmployeesTableSeeder extends Seeder
         ]);
 
         $employee = factory(Employee::class)->create([
-            'email' => 'john@doe.com'
+            'email' => 'saithitlwin@gmail.com'
         ]);
 
         $super = factory(Role::class)->create([
@@ -54,7 +54,7 @@ class EmployeesTableSeeder extends Seeder
         $employee->roles()->save($super);
 
         $employee = factory(Employee::class)->create([
-            'email' => 'admin@doe.com'
+            'email' => 'admin@myanmarmakro.com'
         ]);
 
         $admin = factory(Role::class)->create([
@@ -72,7 +72,7 @@ class EmployeesTableSeeder extends Seeder
         $employee->roles()->save($admin);
 
         $employee = factory(Employee::class)->create([
-            'email' => 'clerk@doe.com'
+            'email' => 'clerk@myanmarmakro.com'
         ]);
 
         $clerk = factory(Role::class)->create([

@@ -36,7 +36,7 @@
                         <input type="text" name="zip" id="zip" placeholder="Zip code" class="form-control" value="{{ old('zip') }}">
                     </div>
                     <div class="form-group">
-                        <label for="phone">Your Phone </label>
+                        <label for="phone">Your Phone <span class="text-danger">*</span></label>
                         <input type="text" name="phone" id="phone" placeholder="Phone number" class="form-control" value="{{ old('phone') }}">
                     </div>
                 </div>
@@ -53,6 +53,7 @@
 
     </section>
     <!-- /.content -->
+
 @endsection
 
 @section('css')
@@ -130,7 +131,7 @@
                         $('#provinces').html(html).show();
                         $('.select2').select2();
 
-                        findUsCities('AK');
+                        findUsCities('AYR');
 
                         $('#state_code').change(function () {
                             let state_code = $(this).val();
@@ -176,7 +177,7 @@
 
         $(document).ready(function () {
 
-            if (countryId === 226) {
+            if (countryId === 146) {
                 findUsStates(countryId);
             } else {
                 findProvinceOrState(countryId);
@@ -184,7 +185,7 @@
 
             $('#country_id').on('change', function () {
                 countryId = +$(this).val();
-                if (countryId === 226) {
+                if (countryId === 146) {
                     findUsStates(countryId);
                 } else {
                     findProvinceOrState(countryId);

@@ -13,7 +13,7 @@ class DashboardController extends Controller
             ["name" => "Home", "url" => route("admin.dashboard"), "icon" => "fa fa-home"],
 
         ];
-        populate_breadcumb($breadcumb);
+        populate_breadcumb($breadcumb);        
         return view('admin.dashboard');
     }
 }

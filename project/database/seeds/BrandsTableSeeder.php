@@ -8,7 +8,10 @@ class BrandsTableSeeder extends Seeder
     public function run()
     {
         factory(Brand::class)->create([
-            'name' => 'Apple'
+            'name' => 'Ready'
+        ]);
+        factory(Brand::class)->create([
+            'name' => 'Bravo'
         ]);
     }
 }

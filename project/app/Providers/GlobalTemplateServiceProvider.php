@@ -38,6 +38,10 @@ class GlobalTemplateServiceProvider extends ServiceProvider
             $view->with('cartCount', $this->getCartCount());
         });
 
+        // for "Shop Now" button
+        view()->composer(['layouts.front.home-slider'], function ($view) {
+            $view->with('categories', $this->getCategories());
+        });
         /**
          * breadcumb
          */
@@ -76,7 +80,7 @@ class GlobalTemplateServiceProvider extends ServiceProvider
     private function getCategories()
     {
         $categoryRepo = new CategoryRepository(new Category);
-        return $categoryRepo->listCategories('name', 'asc', 1)->whereIn('parent_id', [1]);
+        return $categoryRepo->listCategories('name', 'asc', 1)->whereIn('parent_id', [NULL]);
     }
 
     /**

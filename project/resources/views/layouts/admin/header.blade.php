@@ -25,7 +25,7 @@
                         <span class="label label-success">4</span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li class="header">You have 4 messages</li>
+                        <li class="header">You have received 4 orders</li>
                         <li>
                             <!-- inner menu: contains the actual data -->
                             <ul class="menu">
@@ -44,7 +44,7 @@
                                 <!-- end message -->
                             </ul>
                         </li>
-                        <li class="footer"><a href="#">See All Messages</a></li>
+                        <li class="footer"><a href="#">See All Orders</a></li>
                     </ul>
                 </li>
                 <!-- Notifications: style can be found in dropdown.less -->
@@ -69,7 +69,7 @@
                     </ul>
                 </li>
                 <!-- Tasks: style can be found in dropdown.less -->
-                <li class="dropdown tasks-menu">
+                <!-- <li class="dropdown tasks-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-flag-o"></i>
                         <span class="label label-danger">9</span>
@@ -77,9 +77,8 @@
                     <ul class="dropdown-menu">
                         <li class="header">You have 9 tasks</li>
                         <li>
-                            <!-- inner menu: contains the actual data -->
                             <ul class="menu">
-                                <li><!-- Task item -->
+                                <li>
                                     <a href="#">
                                         <h3>
                                             Design some buttons
@@ -92,14 +91,13 @@
                                         </div>
                                     </a>
                                 </li>
-                                <!-- end task item -->
                             </ul>
                         </li>
                         <li class="footer">
                             <a href="#">View all tasks</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -117,7 +115,7 @@
                             </p>
                         </li>
                         <!-- Menu Body -->
-                        <li class="user-body">
+                        <!-- <li class="user-body">
                             <div class="row">
                                 <div class="col-xs-4 text-center">
                                     <a href="#">Followers</a>
@@ -129,8 +127,7 @@
                                     <a href="#">Friends</a>
                                 </div>
                             </div>
-                            <!-- /.row -->
-                        </li>
+                        </li> -->
                         <!-- Menu Footer-->
                         <li class="user-footer">
                             <div class="pull-left">
