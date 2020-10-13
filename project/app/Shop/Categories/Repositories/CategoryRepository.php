@@ -110,11 +110,12 @@ class CategoryRepository extends BaseRepository implements CategoryRepositoryInt
         $collection = collect($params)->except('_token');
         $slug = str_slug($collection->get('name'));
 
+        $merge = "";
         if (isset($params['cover']) && ($params['cover'] instanceof UploadedFile)) {
             $cover = $this->uploadOne($params['cover'], 'categories');
-        }
-
-        $merge = $collection->merge(compact('slug', 'cover'));
+            $merge = $collection->merge(compact('slug', 'cover'));
+        } else
+            $merge = $collection->merge(compact('slug'), 'no-cover');
 
         // set parent attribute default value if not set
         $params['parent'] = $params['parent'] ?? 0;
