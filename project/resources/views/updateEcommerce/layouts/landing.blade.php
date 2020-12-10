@@ -31,6 +31,9 @@
 	<!-- pop-up-box -->
 	<link href="/css_new/menu.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- menu style -->
+
+	<!-- flexslider -->
+	<link href="/css_new/flexslider.css" rel="stylesheet"  type="text/css" media="all" />
 	<!-- //Custom-Files -->
 
 	<!-- web fonts -->
@@ -44,7 +47,8 @@
   @include('updateEcommerce.layouts.partial.navbar')
        
 		@yield('content')
-	
+		
+	@include('updateEcommerce.layouts.partial.scriptfile')
   @include('updateEcommerce.layouts.partial.footer')
 </body>
 </html>

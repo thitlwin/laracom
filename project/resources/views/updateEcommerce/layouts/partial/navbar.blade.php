@@ -25,7 +25,7 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto text-center mr-xl-5">
 						<li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
-							<a class="nav-link" href="index.html">Home
+							<a class="nav-link" href="/index">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
@@ -40,31 +40,31 @@
 										<div class="col-sm-6 multi-gd-img">
 											<ul class="multi-column-dropdown">
 												<li>
-													<a href="product.html">All Mobile Phones</a>
+													<a href="/products">All Mobile Phones</a>
 												</li>
 												<li>
-													<a href="product.html">All Mobile Accessories</a>
+													<a href="/products">All Mobile Accessories</a>
 												</li>
 												<li>
-													<a href="product.html">Cases & Covers</a>
+													<a href="/products">Cases & Covers</a>
 												</li>
 												<li>
-													<a href="product.html">Screen Protectors</a>
+													<a href="/products">Screen Protectors</a>
 												</li>
 												<li>
-													<a href="product.html">Power Banks</a>
+													<a href="/products">Power Banks</a>
 												</li>
 												<li>
-													<a href="product.html">All Certified Refurbished</a>
+													<a href="/products">All Certified Refurbished</a>
 												</li>
 												<li>
-													<a href="product.html">Tablets</a>
+													<a href="/products">Tablets</a>
 												</li>
 												<li>
-													<a href="product.html">Wearable Devices</a>
+													<a href="/products">Wearable Devices</a>
 												</li>
 												<li>
-													<a href="product.html">Smart Home</a>
+													<a href="/products">Smart Home</a>
 												</li>
 											</ul>
 										</div>

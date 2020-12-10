@@ -81,6 +81,39 @@
 	<!-- top Products -->
 	<div class="ads-grid py-sm-5 py-4">
 		<div class="container py-xl-4 py-lg-2">
+		<!-- add category -->
+		  <h3 class="tittle-w3l  mb-lg-5 mb-sm-4 mb-3">
+				<span>C</span>ategories
+				</h3>
+		  <div class="category-card px-sm-4 px-3 py-sm-5  py-3 mb-4">
+		     <div class="row">
+		          <div class="col-md-4">
+		            <a>
+		               <div class="category-card-img">
+		                 <img src="images/m3.jpg" alt="" width="50" height="50">
+		                 Phone & Accessories
+		               </div>
+		            </a>
+		          </div>
+		          <div class="col-md-4">
+		          <a>
+		               <div class="category-card-img">
+		                 <img src="images/m5.jpg" alt="" width="50" height="50">
+		                 Phone & Accessories
+		               </div>
+		            </a>
+		          </div>
+		          <div class="col-md-4">
+		          <a>
+		               <div class="category-card-img">
+		                 <img src="images/m7.jpg" alt="" width="50" height="50">
+		                 Phone & Accessories
+		               </div>
+		            </a>
+		          </div>
+		     </div>
+		        
+		  </div>
 			<!-- tittle heading -->
 			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
 				<span>O</span>ur
@@ -101,7 +134,7 @@
 											<img src="images/m1.jpg" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
+													<a href="/product_detail" class="link-product-add-cart">Quick View</a>
 												</div>
 											</div>
 										</div>
