@@ -90,7 +90,7 @@
 		          <div class="col-md-4">
 		            <a>
 		               <div class="category-card-img">
-		                 <img src="images/m3.jpg" alt="" width="50" height="50">
+		                 <img src="images/m3.jpg" alt="" width="30" height="50">
 		                 Phone & Accessories
 		               </div>
 		            </a>
@@ -98,7 +98,7 @@
 		          <div class="col-md-4">
 		          <a>
 		               <div class="category-card-img">
-		                 <img src="images/m5.jpg" alt="" width="50" height="50">
+		                 <img src="images/m5.jpg" alt="" width="30" height="50">
 		                 Phone & Accessories
 		               </div>
 		            </a>
@@ -106,7 +106,59 @@
 		          <div class="col-md-4">
 		          <a>
 		               <div class="category-card-img">
-		                 <img src="images/m7.jpg" alt="" width="50" height="50">
+		                 <img src="images/m7.jpg" alt="" width="30" height="50">
+		                 Phone & Accessories
+		               </div>
+		            </a>
+		          </div>
+		     </div><br>
+		        <div class="row">
+		          <div class="col-md-4">
+		            <a>
+		               <div class="category-card-img">
+		                 <img src="images/mk3.jpg" alt="" width="30" height="50">
+		                 Phone & Accessories
+		               </div>
+		            </a>
+		          </div>
+		          <div class="col-md-4">
+		          <a>
+		               <div class="category-card-img">
+		                 <img src="images/mk7.jpg" alt="" width="30" height="50">
+		                 Phone & Accessories
+		               </div>
+		            </a>
+		          </div>
+		          <div class="col-md-4">
+		          <a>
+		               <div class="category-card-img">
+		                 <img src="images/mk2.jpg" alt="" width="30" height="50">
+		                 Phone & Accessories
+		               </div>
+		            </a>
+		          </div>
+		     </div><br>
+		        <div class="row">
+		          <div class="col-md-4">
+		            <a>
+		               <div class="category-card-img">
+		                 <img src="images/mm3.jpg" alt="" width="30" height="50">
+		                 Phone & Accessories
+		               </div>
+		            </a>
+		          </div>
+		          <div class="col-md-4">
+		          <a>
+		               <div class="category-card-img">
+		                 <img src="images/mm1.jpg" alt="" width="30" height="50">
+		                 Phone & Accessories
+		               </div>
+		            </a>
+		          </div>
+		          <div class="col-md-4">
+		          <a>
+		               <div class="category-card-img">
+		                 <img src="images/m7.jpg" alt="" width="30" height="50">
 		                 Phone & Accessories
 		               </div>
 		            </a>
@@ -115,7 +167,7 @@
 		        
 		  </div>
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
+			<h3 class="tittle-w3l mb-lg-5 mb-sm-4 mb-3">
 				<span>O</span>ur
 				<span>N</span>ew
 				<span>P</span>roducts</h3>
@@ -133,7 +185,7 @@
 										<div class="men-thumb-item text-center">
 											<img src="images/m1.jpg" alt="">
 											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
+												<div class="inner-men-cart-pro" >
 													<a href="/product_detail" class="link-product-add-cart">Quick View</a>
 												</div>
 											</div>
